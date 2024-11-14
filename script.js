@@ -1,7 +1,7 @@
 
 let projects = [
-    {img: "/images/projects/hamburguerShop.jpg", content: "Aplicação de uma hamburgueria desenvovilvida em .Net, Javascript, SQL, HTML e CSS.", link: "https://www.youtube.com/"},
-    {img: "/images/projects/macthGame.jpg", content:"Simples e divertido jogo da memória desenvolvido em Javascript, HTML e CSS.", link:"https://www.google.com/"}
+    {img: "./images/projects/hamburguerShop.jpg", content: "Aplicação de uma hamburgueria desenvovilvida em .Net, Javascript, SQL, HTML e CSS.", link: "https://www.youtube.com/"},
+    {img: "./images/projects/macthGame.jpg", content:"Simples e divertido jogo da memória desenvolvido em Javascript, HTML e CSS.", link:"https://www.google.com/"}
 ];
 let projectsControl = 0;
 showCaseMateralize(projects[projectsControl]);

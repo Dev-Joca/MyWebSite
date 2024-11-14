@@ -8,7 +8,7 @@
 
 body
 {
-    background-image: url(images/Background.jpg);
+    background-image: url(./images/Background.jpg);
 }
 
 header
@@ -167,28 +167,28 @@ main
 
 #leftButton
 {
-    background-image: url(/images/arrowLeft.png);
+    background-image: url(./images/arrowLeft.png);
     background-size: cover;
     width: 40px;
     height: 55px;
 }
 #leftButton:hover
 {
-    background-image: url(/images/arrowLeft_hover.png);
+    background-image: url(./images/arrowLeft_hover.png);
     background-size: cover;
     cursor: pointer;
 }
 
 #rightButton
 {
-    background-image: url(/images/arrowRight.png);
+    background-image: url(./images/arrowRight.png);
     background-size: cover;
     width: 40px;
     height: 55px;
 }
 #rightButton:hover
 {
-    background-image: url(/images/arrowRight_hover.png);
+    background-image: url(./images/arrowRight_hover.png);
     background-size: cover;
     cursor: pointer;
 }
@@ -231,24 +231,24 @@ footer
     height: 50px;
     margin-top: 10px;
     margin-right: 10px;
-    background-image: url(/images/github.png);
+    background-image: url(./images/github.png);
     background-size: cover;
     display: inline-block;
 }
 #git:hover {
-    background-image: url(/images/github_hover.png);
+    background-image: url(./images/github_hover.png);
     background-size: cover;
 }
 #linkedin{
     width: 50px;
     height: 50px;
     margin-left: 10px;
-    background-image: url(/images/linkedin.png);
+    background-image: url(./images/linkedin.png);
     background-size: cover;
     display: inline-block;
 }
 #linkedin:hover {
-    background-image: url(/images/linkedin_hover.png);
+    background-image: url(./images/linkedin_hover.png);
     background-size: cover;
 }
 
