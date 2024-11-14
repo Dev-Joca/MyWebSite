@@ -1,0 +1,323 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inria Sans", sans-serif;
+}
+
+body
+{
+    background-image: url(images/Background.jpg);
+}
+
+header
+{
+    background-color: #1B1B1D;
+    color: #FFF;
+    font-size: small;
+    text-transform: uppercase;
+    height: 16vh;
+    max-height: 160px;
+    border-bottom: 5px solid #489291;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu
+{
+    display: none;
+}
+
+main
+{
+    padding: 4% 2%;
+    min-height: 70vh;
+}
+
+#mainContent
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #1B1B1D;
+    text-transform: uppercase;
+    text-align: justify;
+    font-size: larger;
+    padding: 4%;
+    width: 100%;
+    margin: 0 auto;
+    border: 3px solid #1B1B1D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+ 
+#indexMainP p
+{
+    margin: 4%;
+}
+
+#cv
+{
+    max-width: 70px;
+}
+
+#contactMainP p
+{
+    margin: 2%;
+}
+
+#cotactMainForm form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around
+}
+
+.forminput
+{
+    background-color: #D9D9D9;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    min-height: 40px;
+    min-width: 240px;
+    margin: 8%;
+    border-radius: 4px;
+    border: 1px solid #1B1B1D;
+}
+
+#msgForm
+{
+    resize: none;
+    text-align: justify;
+    text-transform: none;
+    padding: 4%;
+}
+
+.formButton
+{
+    background-color: #489291;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    min-height: 36px;
+    min-width: 80px;
+    border: 1px solid #1B1B1D;
+    display:inline;
+}
+
+.formButton:hover
+{
+    background-color: #2C7A79;
+    cursor: pointer;
+}
+
+#showCase
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#showCase p
+{
+    max-width: 90%;
+    margin: 2%;
+    text-align: left;
+}
+
+#showCaseImage{
+    max-width: 330px;
+    border: 5px solid #1B1B1D ;
+}
+
+
+#controlProjects
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#projectButton
+{
+    background-color: #489291;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    min-height: 40px;
+    min-width: 120px;
+    border: 1px solid #1B1B1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projectButton:hover
+{
+    background-color: #2C7A79;
+}
+
+#leftButton
+{
+    background-image: url(/images/arrowLeft.png);
+    background-size: cover;
+    width: 40px;
+    height: 55px;
+}
+#leftButton:hover
+{
+    background-image: url(/images/arrowLeft_hover.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+#rightButton
+{
+    background-image: url(/images/arrowRight.png);
+    background-size: cover;
+    width: 40px;
+    height: 55px;
+}
+#rightButton:hover
+{
+    background-image: url(/images/arrowRight_hover.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+nav
+{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+.icon{
+    max-width: 40px;
+}
+
+footer
+{
+    background-color: #1B1B1D;
+    color: #FFF;
+    font-size: small;
+    text-transform: uppercase;
+    padding: 2%;
+    height: 10vh;
+    max-height: 88px;
+    border-top: 5px solid #489291;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#git{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url(/images/github.png);
+    background-size: cover;
+    display: inline-block;
+}
+#git:hover {
+    background-image: url(/images/github_hover.png);
+    background-size: cover;
+}
+#linkedin{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background-image: url(/images/linkedin.png);
+    background-size: cover;
+    display: inline-block;
+}
+#linkedin:hover {
+    background-image: url(/images/linkedin_hover.png);
+    background-size: cover;
+}
+
+.socialMedia
+{
+    max-width: 50px;
+}
+
+@media (min-width: 1040px) {
+    header
+    {
+        max-width: 1250px;
+        max-height: 300px;
+        margin: 5px auto;
+    }
+
+    #menu
+    {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-transform: uppercase;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        max-width: 500px;
+        padding: 0.5%;
+        margin: 2% auto;
+        display: block;
+        border-top: 3px solid #1B1B1D;
+        border-bottom: 3px solid #1B1B1D;
+    }
+
+    #menu ul li
+    {
+        display: inline-block;
+        color:#489291
+    }
+
+    #menu ul li span
+    {
+        color: #1B1B1D;
+    }
+
+    #menu ul li a 
+    {
+        text-decoration: none;
+        color: #1B1B1D;
+    }
+
+    #menu ul li a:hover
+    {
+        color: #2C7A79;
+    }
+
+    main{
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 0 2%;
+        min-height: auto;
+    }
+
+    nav
+    {
+        display: none;
+    }
+
+    footer
+    {
+        max-width: 1600px;
+        margin: 2% auto 0 auto;
+    }
+
+}
