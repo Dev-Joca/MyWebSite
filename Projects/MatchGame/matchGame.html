@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Match Game</title>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -17,9 +20,9 @@
         <audio id="wrongSound" src="sounds/wrongSound.mp3"></audio>
         <div id="gameContent">
             <nav>
-                <a href="./matchGame.html"><img class="menuImages" src="./images/refresh.png" alt=""></a>
-                <a href="#"><img class="menuImages" src="./images/git.png" alt=""></a>
-                <a href="/projects.html"><img class="menuImages" src="./images/exit.png" alt=""></a>
+                <a href="./matchGame.html" title="Reset game"><img class="menuImages" src="./images/refresh.png" alt=""></a>
+                <a href="https://github.com/Dev-Joca/MyWebSite/tree/main/Projects/MatchGame" target="_blank" title="Check code in Github"><img class="menuImages" src="./images/git.png"/></a>
+                <a href="/MyWebSite/projects.html" title="Back to João Carlos' site"><img class="menuImages" src="./images/exit.png" alt=""/></a>
             </nav>
             <div id="player">
                 <div id="board">
@@ -36,9 +39,11 @@
         </div>
     </main>
     <footer>
-        <p><small>Desenvolvido por: João Carlos Barbosa</small></p>
-        <a href="https://github.com/Dev-Joca" target="_blank" title="Link to GitHub" alt=""><div id="git"></div></a>
-        <a href="https://www.linkedin.com/in/dev-joca/" target="_blank" title="Link to LinkedIn"><div id="linkedin"></div></a>
+        <nav>
+            <a href="./matchGame.html" title="Reset game"><img class="menuImages" src="./images/refresh.png" alt=""></a>
+            <a href="https://github.com/Dev-Joca/MyWebSite/tree/main/Projects/MatchGame" target="_blank" title="Check code in Github"><img class="menuImages" src="./images/git.png"/></a>
+            <a href="/MyWebSite/projects.html" title="Back to João Carlos' site"><img class="menuImages" src="./images/exit.png" alt=""/></a>
+        </nav>
     </footer>
 </body>
 </html>
