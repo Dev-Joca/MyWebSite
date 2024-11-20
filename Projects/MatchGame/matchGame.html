@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Game</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Memory Game</h1>
+    </header>
+    <main>
+        <audio id="correctSound" src="sounds/correctSound.mp3"></audio>
+        <audio id="wrongSound" src="sounds/wrongSound.mp3"></audio>
+        <div id="gameContent">
+            <nav>
+                <a href="./matchGame.html"><img class="menuImages" src="./images/refresh.png" alt=""></a>
+                <a href="#"><img class="menuImages" src="./images/git.png" alt=""></a>
+                <a href="/projects.html"><img class="menuImages" src="./images/exit.png" alt=""></a>
+            </nav>
+            <div id="player">
+                <div id="board">
+                </div>
+                <button id="play" onclick="play(id)">PLAY</button>
+            </div>
+        </div>
+        <div id="message">
+            <div id="smallScreen">
+                <img id="small_screen" src="./images/rotate_phone.png" alt=""/>
+                <p>Please</p>
+                <p>Rotate your phone</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p><small>Desenvolvido por: João Carlos Barbosa</small></p>
+        <a href="https://github.com/Dev-Joca" target="_blank" title="Link to GitHub" alt=""><div id="git"></div></a>
+        <a href="https://www.linkedin.com/in/dev-joca/" target="_blank" title="Link to LinkedIn"><div id="linkedin"></div></a>
+    </footer>
+</body>
+</html>
